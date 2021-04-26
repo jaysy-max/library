@@ -137,7 +137,7 @@ class IssuesController extends Controller
 
                
                 $book = Book::where('id', $request->book_id)->increment('borrow_qty', $issue->issue_qty);
-                $issueCounter = DB::table('issuecounter');
+                $issueCounter = DB::table('issueCounter');
                 $issueCounter->insert(['qty' => $request->issue_qty]);
                 return response()->json($issue);
             }
