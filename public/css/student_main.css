@@ -1,0 +1,325 @@
+
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Medium;
+    src: url('../fonts/poppins/Poppins-Medium.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-Bold;
+    src: url('../fonts/poppins/Poppins-Bold.ttf'); 
+  }
+  
+  @font-face {
+    font-family: Poppins-SemiBold;
+    src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
+  }
+   /*FOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOONTS*/
+ 
+ body, html{
+  color: rgb(73, 73, 73) !important;
+	font-family: Poppins-Regular,sans-serif !important;
+}
+.btn-blue {
+	color: #004e92;
+	border-color: #004e92;
+}
+.btn-blue:hover {
+  background: #004e92;
+  color: #fff;
+  border-color: #004e92;		
+}
+.btn-blue-1{
+  width:20rem;
+}
+
+.btn-yellow {
+	color: #fff;
+  background: #cccf02;
+  
+}
+.btn-yellow:hover {
+  
+  background: #cccf02;
+  color: #fff;
+  border-color: #cccf02;		
+}
+/* DASH-DASH-DASH-DASH-DASH-DASH-DASH-DASH-DASH-DASH-DASH-DASH-DASH-DASH  */
+.dashboard{
+margin: -22px auto;
+}
+.jumbotron{
+  background: #000428; 
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  
+  background: linear-gradient(to right, #004e92, #000428);
+  min-height: 350px;
+  max-height: min-content;
+  overflow: hidden;
+}
+
+.display-3{
+  font-size: 2rem;
+  font-weight: 700;
+
+}
+.lead{
+  font-family: bitter, serif;
+  font-weight: 500;
+  
+}
+.display-3, .lead{
+  color: #fbfbfb;
+  padding: 4px 2vw;
+  text-align: left;
+  max-width: 75ch;
+  overflow: hidden;
+  
+    
+}
+.display-4{
+  font-size: 2.5em;
+  margin-top: -1.6rem;
+  text-align: start;
+  padding: 0.8em;
+  background-color: #333;
+  border-radius: 3px;
+  color: #fbfbfb;
+}
+/* ------------- */
+/**CARD-dashboard**/
+.card-container{
+  margin: -0.8em auto;
+  padding: 1em;
+
+
+
+  
+}
+.background-card{
+ 
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+.card-dash {
+  border-left: 4px solid  #004e92;
+  cursor: pointer;
+  width:240px;
+  max-width: 240px;
+  padding: -10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.25s cubic-bezier(.25,.8,.25,1);
+}
+.card-body-dash{
+  min-height: 250px;
+  max-height: 250px;
+  overflow: hidden;
+}
+h5.card-title{
+  text-transform: capitalize;
+  overflow: hidden;
+  margin: auto;
+  font-weight: 600;
+  min-height: 60px;
+  max-height: 60px;
+}
+.card-text{
+  text-transform: capitalize;
+  font-family: bitter, serif;
+  text-align: left;
+  margin: auto;
+  font-weight: 500;
+  
+}
+
+.card-dash:hover {
+  overflow: visible;
+  border-left: hidden;
+  transform: scale(1.1, 1.1);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transform: scale(1.1em);
+}
+
+/**CARD-reserve**/
+
+.card-reserve {
+  text-transform: capitalize;
+  color: black;
+  position: relative;
+  background: #fff;
+  overflow: hidden;
+  min-height: 270px;
+  max-height: 270px;
+  border-radius: 2px;
+  margin: 2em auto;
+  width: 300px;
+  border-width: 3px;
+  border-image: 
+  linear-gradient(
+    to bottom, 
+    #004e92, 
+    rgba(0, 0, 0, 0)
+  ) 0 100%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.card-reserve:hover {
+  transform: scale(1.1, 1.1);
+
+ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+ transition: all 0.3s ease;
+}
+.card-footer-approved{
+  position: absolute;
+  background: #fff;
+  overflow: hidden;
+  left: 80px;
+  top: 200px;
+}
+.card-footer-pending{
+  position: absolute;
+  background: #fff;
+  overflow: hidden;
+  left: 40px;
+  top: 200px;
+}
+
+
+
+
+/**END OF CARD**/
+/**notifications**/
+.badge{
+width: 20px !important;
+}
+
+.btn-notif {
+	color: #666;
+	border:hidden;
+  margin-top: 0.3em;
+
+ 
+}
+.btn-notif:hover {
+  background: #004e92;
+  color: #fff;
+ 		
+}
+.notif{
+  text-align: center;
+  width: 200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 3%;
+}
+.notif:hover{
+  background-color:rgb(231, 231, 231);
+}
+/**END-notifications**/
+
+/* TABLE */
+.table-striped thead th  {
+  background: #333;
+  font-size: 16px;
+  vertical-align: middle;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 1;
+  padding: 22px 40px;
+  white-space: nowrap;
+}
+.table-striped tbody td {
+  color: #808080;
+  
+  white-space: nowrap;
+}
+.table-striped tbody tr:hover td {
+  color: #555;
+  cursor: pointer;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #fff;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+  background-color: #f5f5f5;
+}
+.form-group-books{
+  
+margin: auto;
+
+}
+/* end-TABLE */
+/* RESERVATION FORM 
+ ____________
+| ___    ___ |
+| X      X   |
+|     c      |
+|   VvvvvV   |
+|____________|
+
+ */
+
+
+#form-main{
+  position: absolute;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-left: -1.1em;
+  margin-right: -1.1em;
+  background: #000428; 
+  background: -webkit-linear-gradient(to right, #004e92, #000428);  
+  background: linear-gradient(to right, #004e92, #000428);
+}
+#form-div {
+  max-width: 560px;
+  padding: 2em 2em 1em 2em;
+  background-color:white;
+  border-radius: 5px;
+  text-align: start;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+  
+}
+.form-header{
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 700;
+  color: black;
+  font-size: 2em;
+
+}
+.form-create-reserve{
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  color: #555;
+  font-weight: 300;
+}
+.form-create-reserve:focus{
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #004e92;
+  border: 2px solid #004e92;
+  color: #004e92;
+  transition: all 0.25s cubic-bezier(.25,.8,.25,1);
+}
+.label-reserve-create{
+  text-transform: capitalize;
+  color: black;
+  font-size: 1.2em;
+  margin-bottom: -1em;
+}
+.button-container{
+ 
+text-align: center;
+}
+
+
+
+
